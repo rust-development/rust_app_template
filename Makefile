@@ -15,10 +15,10 @@ help:
 	echo "- make release name=<NAME>"
 
 new.app:
-	cargo new "${APP_DIR}/${NAME}"  --vcs git
+	cargo new "${APP_DIR}/${NAME}" --vcs none
 
 new.lib:
-	cargo new "${LIB_DIR}/${NAME}" --lib --vcs git
+	cargo new "${LIB_DIR}/${NAME}" --lib --vcs none
 
 test:
 	cd "${NAME}" && cargo test
