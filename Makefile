@@ -32,3 +32,5 @@ build:
 release:
 	cd "${NAME}" && cargo build --release
 
+launch:
+	cargo run
