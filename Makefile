@@ -13,6 +13,7 @@ help:
 	echo "- make clean"
 	echo "- make build"
 	echo "- make release name=<NAME>"
+	echo "- make launch"
 
 new.app:
 	cargo new "${APP_DIR}/${NAME}" --vcs none
