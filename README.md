@@ -39,3 +39,19 @@ Launch
 ```sh
 make launch
 ```
+
+To run specified apps.
+For example apps/cli
+
+```sh
+cargo run -p apps/cli
+```
+
+Cargo.toml
+```sh
+[workspace]
+
+members = [
+    "apps/cli",
+]
+```
